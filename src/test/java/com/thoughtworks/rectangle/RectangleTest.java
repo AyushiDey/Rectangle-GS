@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class RectangleTest {
     @Test
-    public void areaWhenLengthAndBreadthGiven(){
+    public void shouldReturnAreaWhenLengthAndBreadthGiven(){
         Rectangle rect = new Rectangle(5, 10);
         int ar = rect.area();
         assertThat(ar, is(50));
